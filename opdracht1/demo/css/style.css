@@ -19,13 +19,29 @@ h1{
   font-weight:900;
   text-shadow: 10px 10px 10px rgba(0,0,0,.5), 20px 20px 20px rgba(0,0,0,.4), 30px 30px 30px rgba(0,0,0,.1);
 }
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -10px;
+}
+header img{
+  height:30px;
+  margin-right:100px;
+}
+header img:hover{
+  cursor: pointer;
+}
 ul{
   display:flex;
   flex-direction: row;
-  overflow: scroll;
+  overflow-x: scroll;
   height: 200px;
   align-items: center;
   list-style-type: none;
+}
+li img:first-of-type{
+  width:299px;
 }
 li{
   position: relative;
@@ -35,7 +51,7 @@ li{
 li::marker{
   visibility: hidden;
 }
-li .hartje {
+li img.hartje {
   right:-14%;
   bottom:10%;
   height:30px;
