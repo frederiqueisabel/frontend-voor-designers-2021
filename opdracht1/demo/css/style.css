@@ -111,6 +111,7 @@ input{
   height:25px;
   width:200px;
   outline:none;
+  z-index: 1;
 }
 
 input:active, :focus{
@@ -120,6 +121,8 @@ input:active, :focus{
 #zoekbalkdiv img{
   position: absolute;
   right:0;
+  background-color: #262626;
+  z-index: 2;
 }
 
 #zoekbalk.balkanimatie{
