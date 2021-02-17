@@ -315,3 +315,14 @@ function animatieKlikuit18 () {
  
  klikFavo18.src = "images/hart.png"
 }
+
+var Zoek = document.querySelector("#zoekicon");
+
+Zoek.addEventListener('click', zoekAnimatie);
+
+function zoekAnimatie () {
+  var balk = document.querySelector("#zoekbalk");
+  console.log("zoekbalk");
+  balk.classList.toggle("balkanimatie");
+}
+

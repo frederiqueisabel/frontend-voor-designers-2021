@@ -23,11 +23,10 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: -10px;
+  margin-top: -40px;
 }
 header img{
   height:30px;
-  margin-right:100px;
 }
 header img:hover{
   cursor: pointer;
@@ -95,4 +94,47 @@ button:active button:visited{
 }
 button{
   outline:none;
+}
+div#zoekbalkdiv{
+  position: relative;
+  margin-right:50px;
+  width: 315px;
+  height: 100px;
+  overflow: hidden;
+  margin-top: 90px;
+}
+input{
+  position: absolute;
+  border-radius: 20px;
+  right:-200px;
+  bottom:75px;
+  height:25px;
+  width:200px;
+  outline:none;
+}
+
+input:active, :focus{
+  outline:none;
+}
+
+#zoekbalkdiv img{
+  position: absolute;
+  right:0;
+}
+
+#zoekbalk.balkanimatie{
+ animation: zoekbalkani 1s;
+ -moz-animation-delay: 0.1s;
+ animation-fill-mode: forwards; 
+}
+
+@keyframes zoekbalkani {
+
+0%{
+  right:-200px;
+}
+
+100%{
+  right:60px;
+}
 }
