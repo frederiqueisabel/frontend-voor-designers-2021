@@ -8,6 +8,8 @@ Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 # Theatr.
 Theatr is een streaming website waarop je films kan kijken. Je kan films aan je favorieten toevoegen en bewaren voor later. Ook kan je met de zoekfunctie zoeken door het rijkelijke aanbod aan films.
 
+https://frederiqueisabel.github.io/frontend-voor-designers-2021/opdracht3/demo/
+
 ## interface
 Je kan films aan je favorieten toevoegen door op het hartje te klikken en je kan zoeken naar films met de zoekbalk die tevoorschijn komt als je op het zoekicoon klikt. Je kan door middel van de pijltjesknoppen verschillende films ontdekken.
 
