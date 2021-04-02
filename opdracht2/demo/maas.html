@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - MAAS Koffie</title>
+    <link rel="icon" href="images/logo.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+<body >
+    <header>
+        <nav>
+            <img id="logo" src="images/logo.png">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="frontend.html">
+                    <li>Front-end</li>
+                </a>
+                <a href="portfolio.html">
+                    <li>UX/UI</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main id="main538">
+        <a href="portfolio.html">Terug naar Portfolio</a>
+        <container>
+            <article>
+                <h1>
+                    MAAS Koffiemachines
+                </h1>
+                <p> De vernieuwde koffiemachines<br> gebaseerd op de user needs. </p>
+            </article>
+            <img src="images/MAASpagina.png"> 
+        </container>
+        <article id="maasarticle">
+            <h2 data-aos="fade-up">Opdracht</h2>
+            <p data-aos="fade-up">Onderzoek wat de problemen zijn met de huidige MAAS Koffiemachines<br> en onderzoek wat de user needs zijn en wat er moet veranderen. Ontwerp een<br> nieuwe koffiemachine die deze problemen oplost.  </p>
+        </article>
+        <img id="poster" src="images/frederique.stal.poster.png">
+        <div>
+            <embed src="files/procesboek.frederique.stal.ucd.narcis.pdf" type="application/pdf">
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="aos.js"></script>
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+    </script>
+    <script>
+        gsap.to("#scroll", {
+            scrollTrigger: '#scroll',
+            opacity: 0 % ;
+        })
+    </script>
+</body>
+</html>

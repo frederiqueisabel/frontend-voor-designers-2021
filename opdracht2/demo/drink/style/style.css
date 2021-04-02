@@ -1,0 +1,34 @@
+/* Gezorgd dat alle content in het midden van de pagina staat en onder elkaar wordt gezet. */
+body{
+    background-color: #009fe3;
+    color:yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Gezorgd dat de img in het midden van de pagina komt te staan. */
+img {
+ align-self: center;   
+}
+
+/* Gezorgd dat de button een schaduw heeft, voor een realistischer effect en gezorgd dat de button in het midden van de pagina staat. */
+button {
+    color: #009fe3;
+    background-color: #ffff00;
+    box-shadow: 3px 3px 1px 1px grey;
+    height: 100px;
+    width: 250px;
+    border-radius: 20px;
+    border-color: transparent;
+    align-self: center;
+    font-size: 2.5em;
+    outline:none;
+}
+button:hover{
+    transform: scale(1.1);
+}
+/* Gezorgd dat de knop in het midden van de pagina staat. */
+a {
+    align-self: center;
+}

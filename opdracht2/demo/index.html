@@ -1,8 +1,113 @@
-<html>
-  <head>
-    <title>Frontend voor Designer - Opdracht 2</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
 
-  <body>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Home</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aos.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/ScrollToPlugin.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img id="logo" src="images/logo.png">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="frontend.html">
+                    <li>Front-end</li>
+                </a>
+                <a href="portfolio.html">
+                    <li>UX/UI</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="vlak">
+            <section id="sectie">
+                <div class="naam">
+                    <span>
+                        <h1>Fréderique</h1>
+                        <h2>Isabelle.</h2>
+                    </span>
+                    <p>Front-end Developer /<br />UX/UI Designer</p>
+                    <a id="mywork" href="portfolio.html">My work</a>
+                </div>
+                <img src="images/imageapps.png" alt="isga ontwerp" id="">
+            </section>
+        </div>
+        <p id="scroll">Scroll down for more.</p>
+        <div id="vlak2">
+            <section class="work1">
+                <a href="538halloween.html"><div data-aos="fade-up" class="divje"><img src="images/vierkant2.png">
+                    <div></div>
+                    <p class="titel">538 HALLOWEEN</p>
+                </div></a>
+                <a href="maas.html"><div data-aos="fade-up" class="divje"><img src="images/vierkant5.png">
+                    <div></div>
+                    <p class="titel">MAAS KOFFIE</p>
+                </div></a>
+                <a href="isga.html"><div data-aos="fade-up" class="divje"><img src="images/vierkant1.png">
+                    <div></div>
+                    <p class="titel">ISGA APP</p>
+                </div> </a>
+                <a href="menu.html"><div data-aos="fade-up" class="divje"><img src="images/vierkant4.png">
+                    <div></div>
+                    <p class="titel">MENUKAART</p>
+                </div></a>
+            </section>
+        </div>
+        <div id="vlak3">
+            <article data-aos="fade-right"><h2>About Me</h2>
+            <p>My name is Frederique. I study Communication<br> and Multimedia Design. I am a Frontend Developer<br> and I also do UX Design. </p>
+            </article>
+            <img data-aos="fade-left" src="images/profielfoto2.JPG"></div>
+            <div id="vlak4">
+                <article data-aos="fade-up">
+                    <img src="images/iconfinder_666_Code_coding_computer_monoblock_retro_3957365.png">
+                    <h3>Frontend Developer</h3>
+                    <p>I work with HTML, CSS and JavaScript to  <br> build nice looking, well functioning websites, that <br>live up to the users requirements. </p>
+                </article>
+                <article data-aos="fade-up">
+                    <img src="images/iconfinder_65_Employee_hr_human_hunting_personal_resources_resume_search_4308328.png">
+                    <h3>UX Designer</h3>
+                    <p>By doing extensive research, I try to<br> define the problems that the user has<br> and the wishes, to come up with a solution<br> that satisfies the user needs.<br>
+                </p>
+                </article>
+                </div>   
+
+    </main>
+    <footer></footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="aos.js"></script>
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+    </script>
+    <script>
+        gsap.to("#scroll", {
+            scrollTrigger: '#scroll',
+            opacity: 0 % ;
+        })
+    </script>
+</body>
+
 </html>

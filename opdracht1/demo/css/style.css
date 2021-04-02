@@ -41,6 +41,15 @@ ul{
 }
 li img:first-of-type{
   width:299px;
+  transition: 0.5s ease-in;
+}
+li img:first-of-type:hover{
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+li img:first-of-type:hover img.hartje {
+  transform: scale(1.5);
+  transition: 0.8s;
 }
 li{
   position: relative;

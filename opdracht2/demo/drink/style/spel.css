@@ -1,0 +1,100 @@
+/* Gezorgd dat alle content in het midden van de pagina staat en onder elkaar wordt gezet. */
+body{
+    background-color: #009fe3;
+    color:yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Gezorgd dat het logo aan de linkerkant van de pagina staat. */
+#logocard {
+    align-self: flex-start;
+}
+
+/* De image geven we align-self: center, zodat hij in het midden van het scherm staat.*/
+img {  
+    margin:0;
+    align-self: center
+}
+ /* Button vormgeving zodat het matched met de kaarten en gezorgd dat de buttons naast elkaar staan en dat de buttons in het midden staan van de container. */
+button {
+    color: #009fe3;
+    background-color: #ffff00;
+    box-shadow: 3px 3px 1px 1px grey;
+    height: 80px;
+    width: 200px;
+    border:none;
+    border-radius: 20px;
+    align-self: center;
+    font-size: 2.5em;
+    flex-direction: row;
+    outline:none;
+}
+button:active,:hover,:visited{
+    outline:none;
+}
+button:hover{
+    transform: scale(1.1);
+}
+/* Gezorgd dat de buttons naast elkaar staan en gezorgd dat de container horizontaal in het midden van de pagina staat. */
+#buttons {
+    flex-direction: row;
+    align-self: center;
+    margin:0;
+    margin-right:20px;
+}
+
+/* Gezorgd dat de button verticaal ongeveer in het midden van de container staat. */
+#next {
+    margin-bottom: -30px;
+}
+
+/* De positie van de knoppen en teksten goed gezet. */
+#nee {
+    margin-left: 150px;
+    margin-top: 0;
+    height: 60px;
+    width: 160px;
+}
+
+#ja {
+    height: 60px;
+    width: 160px; 
+}
+
+a {
+    align-self: center;
+}
+
+p {
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    align-self: center;
+}
+
+#tekst {
+    text-align: center;
+    width: 70%;
+}
+
+#gelukt {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-right:20px;
+}
+
+/* Gezorgd dat de kaart en de button "next" naast elkaar komen te staan en de kaart zelf in het midden van de container komt te staan.*/
+#kaart {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    margin-left: 160px;
+}
+#card{
+    margin-top: -100px;
+}
+section{
+    display: flex;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - 538 Halloween</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+<body >
+    <header>
+        <nav>
+            <img id="logo" src="images/logo.png">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="frontend.html">
+                    <li>Front-end</li>
+                </a>
+                <a href="portfolio.html">
+                    <li>UX/UI</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main id="main538">
+        <a href="portfolio.html">Terug naar Portfolio</a>
+        <container>
+            <article>
+                <h1>
+                    538 Halloween App
+                </h1>
+                <p> De app waarop 538 samen met hun luisteraars<br> Halloween evenementen kan organiseren. </p>
+            </article>
+            <img src="images/halloween.png"> 
+        </container>
+        <article>
+            <h2 data-aos="fade-up">Opdracht</h2>
+            <p data-aos="fade-up">538 wil dit jaar Halloween grootster aanpakken. Ze willen meer evenementen <br>organiseren en ze willen hun luisteraars ook mee laten werken.
+               Ze willen een app voor 538 evenementen die voldoet aan alle gebruikerseisen. </p>
+        </article>
+        <div>
+            <embed data-aos="fade-up" src="files/ontwerpdocument.frederique.stal.narcis.pdf" type="application/pdf">
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="aos.js"></script>
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+    </script>
+    <script>
+        gsap.to("#scroll", {
+            scrollTrigger: '#scroll',
+            opacity: 0 % ;
+        })
+    </script>
+</body>
+</html>

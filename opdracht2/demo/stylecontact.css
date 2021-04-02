@@ -1,0 +1,10 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color:#000066;
+}
+h1 p{
+    display: inline;
+    color:#B0C0DB;
+}

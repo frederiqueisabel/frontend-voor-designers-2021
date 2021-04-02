@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/spel.css">
+</head>
+<body>
+    <!-- de img met het logo van het spel. -->
+    <section>
+    <a href="index.html">
+     <img src="cards/logo.png" width="200px" height="150px" id="logocard">
+    </a>
+     <!-- de tekst die boven de kaart aangeeft hoeveel slokken je moet nemen of mag uitdelen. -->
+      <p id="tekst"></p>
+    </section>
+      
+      <!-- de container met de img waar de kaarten komen te staan. Dit img element gebruik ik om de kaarten afwisselend in voor te laten komen. Ook zit de next knop in de container, zodat ik deze twee naast elkaar kon plaatsen. -->
+      <container id=kaart>
+          <img src="cards/drinkcard.png" width="750px" height="500px" id="card">
+          <button id="next" >Start</button>
+      </container>
+      
+      <!-- de tekst met de vraag of het gelukt is. Door javascript verandert deze tekst bij bepaalde kaarten -->
+       <p id="gelukt"> Is het gelukt?</p>
+       
+       <!-- de container met de buttons "ja" en "nee", zodat ik deze twee naast elkaar kon plaatsen. -->
+       <container id="buttons">
+           <button id="ja">ja</button>
+           <button id="nee">nee</button>
+       </container>
+       
+    <script src="script/script.js"></script>
+</body>
+</html>
